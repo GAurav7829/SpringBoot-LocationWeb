@@ -18,7 +18,7 @@ public class EmailUtilImpl implements EmailUtil {
 		MimeMessageHelper helper = new MimeMessageHelper(message);
 		try {
 			helper.setTo(toAddress);
-			helper.setText(body);
+			helper.setText(body,true);
 			helper.setSubject(subject);
 		} catch (MessagingException e) {
 			e.printStackTrace();

@@ -20,5 +20,7 @@
 	${msg}
 	<br/>
 	<a href="displayLocations">View All</a>
+	<br/>
+	<a href="generateReport">View Report</a>
 </body>
 </html>
